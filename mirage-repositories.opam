@@ -1,0 +1,21 @@
+opam-version: "2.0"
+maintainer:   "thomas@gazagnaire.org"
+authors:      ["Thomas Gazagnaire" "Thomas Leonard"]
+license:      "ISC"
+homepage:     "https://github.com/mirage/mirage-repositories"
+bug-reports:  "https://github.com/mirage/mirage-repositories/issues"
+dev-repo:     "git+https://github.com/mirage/mirage-repositories.git"
+doc:          "https://mirage.github.io/mirage-repositories/"
+
+build: [
+ ["dune" "subst"] {dev}
+ ["dune" "build" "-p" name "-j" jobs]
+ ["dune" "runtest" "-p" name "-j" jobs] {with-test}
+]
+
+depends: [
+  "ocaml"   {>= "4.08.0"}
+  "dune"    {>= "2.7.0"}
+]
+
+synopsis: "List of repositories for the MirageOS project."

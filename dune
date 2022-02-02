@@ -1,0 +1,4 @@
+(executable
+  (name mirage_repository)
+  (libraries yaml fmt)
+  (preprocess (pps ppx_deriving_yaml)))
