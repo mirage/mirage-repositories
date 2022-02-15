@@ -1,3 +1,49 @@
+- org: dinosaure
+  repo: paf-le-chien
+  tags:
+  - web
+  opam:
+  - paf
+  - paf-cohttp
+  descr: ALPN support with HTTP 1.0/1.1/2.0 for MirageOS using http/af and h2
+- org: dinosaure
+  repo: docteur
+  tags:
+  - storage
+  opam:
+  - docteur
+  - docteur-solo5
+  - docteur-unix
+  descr: A simple way to load your Git repository into your unikernel.
+- org: dinosaure
+  repo: art
+  tags:
+  - storage
+  opam:
+  - art
+  - rowex
+  descr: Adaptive Radix Tree (ART) in OCaml.
+- org: dinosaure
+  repo: cri
+  tags:
+  - chat
+  opam:
+  - cri
+  descr: An implementation of IRC in OCaml.
+- org: dinosaure
+  repo: hxd
+  tags:
+  - parsing
+  opam:
+  - hxd
+  descr: HeX Dump in OCaml
+- org: hannesm
+  repo: gmap
+  tags:
+  - core
+  opam:
+  - gmap
+  descr: heterogenous maps over a GADT.
 - org: mirage
   repo: mirage
   tags:
@@ -109,15 +155,6 @@
   descr: This library supports most of the domain name system used in the wild. It
     adheres to strict conventions. Failing early and hard. It is mostly implemented
     in the pure fragment of OCaml (no mutation, isolated IO, no exceptions).
-- org: roburio
-  repo: happy-eyeballs
-  tags:
-  - network
-  opam:
-  - happy-eyeballs
-  - happy-eyeballs-lwt
-  - happy-eyeballs-mirage
-  descr: An implementation of happy eyeballs (RFC 8305) in OCaml.
 - org: mirage
   repo: ocaml-conduit
   tags:
@@ -347,14 +384,6 @@
   - cohttp-mirage
   descr: a library for creating HTTP daemons, with a portable HTTP parser and implementations
     using various asynchronous programming libraries.
-- org: dinosaure
-  repo: paf-le-chien
-  tags:
-  - web
-  opam:
-  - paf
-  - paf-cohttp
-  descr: ALPN support with HTTP 1.0/1.1/2.0 for MirageOS using http/af and h2
 - org: mirage
   repo: ocaml-crunch
   tags:
@@ -363,15 +392,6 @@
   - crunch
   descr: take a directory of files and compile them into a standalone OCaml module
     that serves the contents directly from memory.
-- org: dinosaure
-  repo: docteur
-  tags:
-  - storage
-  opam:
-  - docteur
-  - docteur-solo5
-  - docteur-unix
-  descr: A simple way to load your Git repository into your unikernel.
 - org: mirage
   repo: index
   tags:
@@ -623,14 +643,6 @@
   opam:
   - duff
   descr: Duff is a little library to implement libXdiff in OCaml.
-- org: dinosaure
-  repo: art
-  tags:
-  - storage
-  opam:
-  - art
-  - rowex
-  descr: Adaptive Radix Tree (ART) in OCaml.
 - org: mirage
   repo: ocaml-diet
   tags:
@@ -652,49 +664,6 @@
   opam:
   - lazy-trie
   descr: Lazy prefix trees in OCaml.
-- org: dinosaure
-  repo: cri
-  tags:
-  - chat
-  opam:
-  - cri
-  descr: An implementation of IRC in OCaml.
-- org: roburio
-  repo: caldav
-  tags:
-  - calendar
-  opam:
-  - caldav
-  descr: Calendar server (CalDAV, RFC 4791) implementation in OCaml.
-- org: roburio
-  repo: icalendar
-  tags:
-  - calendar
-  opam:
-  - icalendar
-  descr: A library to parse and print the iCalendar (.ics) format as specified in
-    RFC5545.
-- org: roburio
-  repo: ocaml-cbor
-  tags:
-  - parsing
-  opam:
-  - cbor
-  descr: OCaml native CBOR decoder/encoder (RFC 7049).
-- org: roburio
-  repo: ocaml-pf
-  tags:
-  - network
-  opam:
-  - pf
-  descr: An Angstrom-based parser for the FreeBSD pf firewall configuration format..
-- org: roburio
-  repo: ocaml-openpgp
-  tags:
-  - security
-  opam:
-  - openpgp
-  descr: OpenPGP library (RFC 4880).
 - org: mirage
   repo: ocaml-9p
   tags:
@@ -810,13 +779,6 @@
   - pecu
   descr: A library to encode and decode Quoted-Printable Content-Transfer-Encoding
     (RFC2045).
-- org: dinosaure
-  repo: hxd
-  tags:
-  - parsing
-  opam:
-  - hxd
-  descr: HeX Dump in OCaml
 - org: mirage
   repo: ocaml-asl
   tags:
@@ -846,27 +808,6 @@
   opam:
   - ke
   descr: Fast implementation of Queue in OCaml.
-- org: hannesm
-  repo: gmap
-  tags:
-  - core
-  opam:
-  - gmap
-  descr: heterogenous maps over a GADT.
-- org: pqwy
-  repo: lru
-  tags:
-  - core
-  opam:
-  - lru
-  descr: Scalable LRU caches.
-- org: pqwy
-  repo: psq
-  tags:
-  - core
-  opam:
-  - psq
-  descr: Functional Priority Search Queues.
 - org: mirage
   repo: ocaml-mstruct
   tags:
@@ -982,13 +923,6 @@
   opam:
   - mirage-qubes
   descr: implementations of various [QubesOS](https://www.qubes-os.org) protocols.
-- org: mirleft
-  repo: ocaml-tls
-  tags:
-  - security
-  opam:
-  - tls
-  descr: a pure OCaml implementation of Transport Layer Security.
 - org: mirage
   repo: mirage-crypto
   tags:
@@ -1007,16 +941,6 @@
   - eqaf
   descr: A library to implement various constant time algorithms, especially the equal
     equality testing function for string.
-- org: roburio
-  repo: u2f
-  tags:
-  - security
-  opam:
-  - u2f
-  descr: U2F is a FIDO standard for two-factor authentication using specialized USB
-    or NFC devices, similar to smart cards. Challenge-response authentication with
-    the device using public key cryptography is supported by various applications,
-    i.e. web browsers and ssh.
 - org: mirage
   repo: ca-certs
   tags:
@@ -1032,6 +956,20 @@
   - ca-certs-nss
   descr: Trust anchors extracted from Mozilla's NSS certdata.txt package, to be used
     in MirageOS unikernels.
+- org: mirage
+  repo: bechamel
+  tags:
+  - testing
+  opam:
+  - bechamel
+  descr: Benchmark tools for OCaml.
+- org: mirleft
+  repo: ocaml-tls
+  tags:
+  - security
+  opam:
+  - tls
+  descr: a pure OCaml implementation of Transport Layer Security.
 - org: mirleft
   repo: ocaml-x509
   tags:
@@ -1049,10 +987,72 @@
   - asn1-combinators
   descr: a library for expressing ASN.1 in OCaml by embedding the abstract syntax
     directly in the language.
-- org: mirage
-  repo: bechamel
+- org: pqwy
+  repo: lru
   tags:
-  - testing
+  - core
   opam:
-  - bechamel
-  descr: Benchmark tools for OCaml.
+  - lru
+  descr: Scalable LRU caches.
+- org: pqwy
+  repo: psq
+  tags:
+  - core
+  opam:
+  - psq
+  descr: Functional Priority Search Queues.
+- org: roburio
+  repo: happy-eyeballs
+  tags:
+  - network
+  opam:
+  - happy-eyeballs
+  - happy-eyeballs-lwt
+  - happy-eyeballs-mirage
+  descr: An implementation of happy eyeballs (RFC 8305) in OCaml.
+- org: roburio
+  repo: caldav
+  tags:
+  - calendar
+  opam:
+  - caldav
+  descr: Calendar server (CalDAV, RFC 4791) implementation in OCaml.
+- org: roburio
+  repo: icalendar
+  tags:
+  - calendar
+  opam:
+  - icalendar
+  descr: A library to parse and print the iCalendar (.ics) format as specified in
+    RFC5545.
+- org: roburio
+  repo: ocaml-cbor
+  tags:
+  - parsing
+  opam:
+  - cbor
+  descr: OCaml native CBOR decoder/encoder (RFC 7049).
+- org: roburio
+  repo: ocaml-pf
+  tags:
+  - network
+  opam:
+  - pf
+  descr: An Angstrom-based parser for the FreeBSD pf firewall configuration format..
+- org: roburio
+  repo: ocaml-openpgp
+  tags:
+  - security
+  opam:
+  - openpgp
+  descr: OpenPGP library (RFC 4880).
+- org: roburio
+  repo: u2f
+  tags:
+  - security
+  opam:
+  - u2f
+  descr: U2F is a FIDO standard for two-factor authentication using specialized USB
+    or NFC devices, similar to smart cards. Challenge-response authentication with
+    the device using public key cryptography is supported by various applications,
+    i.e. web browsers and ssh.

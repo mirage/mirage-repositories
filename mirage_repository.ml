@@ -1107,4 +1107,5 @@ let all =
     };
   ]
 
+let all = List.sort Repo.compare all
 let () = Fmt.pr "%a%!" Yaml.pp (to_yaml all)

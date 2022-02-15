@@ -6,3 +6,8 @@ type t = {
   descr : string;
 }
 [@@deriving yaml]
+
+let compare x y =
+  match String.compare x.org y.org with
+  | 0 -> String.compare x.org y.org
+  | i -> i
