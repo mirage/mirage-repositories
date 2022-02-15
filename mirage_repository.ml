@@ -78,7 +78,7 @@ let all =
       repo = "prometheus";
       tags = [ Tag.logging ];
       opam = [ "prometheus"; "prometheus-app" ];
-      descr = "OCaml client library for Prometheus monitoring.\n";
+      descr = "OCaml client library for Prometheus monitoring.";
     };
     {
       org = "mirage";

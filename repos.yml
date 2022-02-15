@@ -72,9 +72,7 @@
   opam:
   - prometheus
   - prometheus-app
-  descr: 'OCaml client library for Prometheus monitoring.
-
-    '
+  descr: OCaml client library for Prometheus monitoring.
 - org: mirage
   repo: ocaml-uri
   tags:
