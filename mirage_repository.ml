@@ -1107,4 +1107,4 @@ let all =
     };
   ]
 
-let () = Fmt.pr "%a\n" Yaml.pp (to_yaml all)
+let () = Fmt.pr "%a%!" Yaml.pp (to_yaml all)
